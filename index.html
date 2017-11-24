@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+
+<!--[if !IE]><!--> <html> <!--<![endif]-->
+
+<head>
+
+	<title>Midea 概述页</title>
+
+		<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="美的方烤箱|Media FUN|Media FUN烤箱|智能烤箱|APP烤箱">
+	<meta name="description" content="美的方烤箱，只做最美的烤箱">
+
+	<!-- CSS Global Compulsory -->
+	<link rel="stylesheet" href="themes/media-theme/assets/plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="themes/media-theme/assets/css/style.css">
+
+	<!-- CSS Implementing Plugins -->
+	<link rel="stylesheet" href="themes/media-theme/assets/plugins/animate.css">
+	<link rel="stylesheet" href="themes/media-theme/assets/plugins/font-awesome/css/font-awesome.min.css">
+
+	<!-- CSS Theme -->
+	<link rel="stylesheet" href="themes/media-theme/assets/css/theme-colors/light.css" id="style_color">
+	<link rel="stylesheet" href="themes/media-theme/assets/css/theme-skins/dark.css">
+
+	<link rel="stylesheet" href="themes/media-theme/assets/css/headers/header-v5.css">
+	<link rel="stylesheet" href="themes/media-theme/assets/css/custom.css">
+	<script type="text/javascript" src="http://cdn.webfont.youziku.com/wwwroot/js/wf/youziku.api.min.js"></script>
+	<link rel="stylesheet" href="themes/media-theme/assets/css/jquery-ui.min.css">
+
+
+
+	<style>#video-background {
+
+			top: -5%;
+
+		}
+
+		#video-src {
+
+			background: #969696 50% 50% no-repeat;
+
+		}
+
+		#share-video-background {
+
+			top: -5%;
+
+		}
+
+		/* This used to work for parent element of button divs */
+		/* But it is not enough now, below dont hide play button parent div */
+		*::-webkit-media-controls-panel {
+		display: none!important;
+		-webkit-appearance: none;
+		}
+		/* Old shadow dom for play button */
+		*::--webkit-media-controls-play-button {
+		display: none!important;
+		-webkit-appearance: none;
+		}
+		/* New shadow dom for play button */
+		/* This one works */
+		*::-webkit-media-controls-start-playback-button {
+		display: none!important;
+		-webkit-appearance: none;
+		}
+
+	</style>
+
+</head>
+
+
+
+
+
+<body class="header">
+
+	<div class="wrapper">
+
+		
+
+				<!--=== Header v5 ===-->
+		<div class="header-v5">
+
+			<!-- Navbar -->
+			<div class="navbar navbar-default mega-menu" role="navigation">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+							<span class="sr-only">展开导航栏</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">
+							<img id="logo-header" src="themes/media-theme/assets/images/logo.png" alt="Logo">
+						</a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse navbar-responsive-collapse">
+						<!-- Nav Menu -->
+						<ul class="nav navbar-nav">
+							<li><a href="index.html" class="siyuan-font-light">概述</a></li>
+							<li><a href="design.html" class="siyuan-font-light">设计</a></li>
+							<li><a href="tech.html" class="siyuan-font-light">技术</a></li>
+							<li><a href="specs.html" class="siyuan-font-light">参数</a></li>
+							<li><a href="purchase.html" class="siyuan-font-light">购买</a></li>
+							<li><a href="download.html" target="_blank" class="siyuan-font-light">下载</a></li>
+						</ul>
+						<!-- End Nav Menu -->
+					</div>
+				</div>
+			</div>
+			<!-- End Navbar -->
+		</div>
+		<!--=== End Header v5 ===-->
+
+
+		<div class="hidden-xs hidden-sm" id="video-area" style="display: block; padding: 0 0 47%; position: relative; z-index: 1;">
+
+			<div id="video-background">
+
+				<video id="video-src" poster="none.html" style="width: 100%;">
+
+					
+						<source src='video.webm' type='video/webm' />
+
+					
+						<source src='video.mp4' type='video/mp4' />
+
+					
+				</video>
+
+			</div>			
+
+			<div id="video-text-block">
+
+				<h1 class="large siyuan-font-light" style="color: white;">美的方烤箱</h1>
+
+				<h2 class="hidden-xs hidden-sm siyuan-font-light" style="color: white; font-size: 24px; font-weight: bold;">做最美的烘焙</h2>
+
+				<span style="font-size: 40px; color: white;" class="trigger-video small-play-icon glyphicon glyphicon-play-circle"></span>
+
+				<img class="large-play-icon trigger-video" style="cursor: pointer; margin-top: 20px;" src="themes/media-theme/assets/images/play.png" />
+
+			</div>
+
+		</div>
+
+
+
+
+		<div id="products-intro" style="position: relative; z-index: 1;">
+
+			<div style="background:url('media/home/white-oven.jpg') 50% 50% / contain;">
+
+				<div id="containment-for-left" style="width: 95%">
+
+					<div class="left-product-section" style="border-right: 3px white solid; background:url('media/home/black-oven.jpg') 0% 50% / auto 100%; padding: 29.605263157895% 0; width: 52.6%;">
+
+						<div class="visible-md-block visible-lg-block" style="position: absolute; right: -39px; top: 25%; width: 78px; height: 78px; background: url('themes/media-theme/assets/images/slider.png');"></div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+		<div id="camera-intro" class="tech-feature  interactive-slider-v2" style="padding: 16% 0 30%; background:url('media/home/camera-banner.jpg') 50% 50% / cover no-repeat;">
+
+
+
+			
+			<div id="camera2-intro" class="tech-feature    interactive-slider-v2" style="width: 97.5%; position: absolute; top: 0; right: 0; padding: 16% 0 30%; background:url('media/home/component1.png') 50% 50% / cover no-repeat;">
+
+
+
+				<div class="container">
+
+					<div class="row">
+
+						<div class="col-md-5 col-md-push-1 content-area" style="opacity: 0;"><div class="dont-turn-to-well" >
+
+							<h1 class="siyuan-font-extra-light margin-bottom-20" style="text-align: left; font-size: 40px;">手机上就能看见香味</h1>
+
+							<p class="siyuan-font-extra-light margin-bottom-40" style="text-align: left; font-size: 16px; font-weight: lighter;">美的方智能烤箱创新地在30度黄金视角嵌入高清耐温摄像头，用手机就能轻松把控烹饪进程，绝不错过美味定格的关键时刻。</p>
+
+							<div class="row features ">
+
+								
+							</div>
+
+						</div></div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			
+			<div id="camera3-intro" class="tech-feature    interactive-slider-v2" style="width: 95%; position: absolute; top: 0; right: 0; padding: 16% 0 30%; background:url('media/home/component2.png') 50% 50% / cover no-repeat;">
+
+
+
+				<div class="container">
+
+					<div class="row">
+
+						<div class="col-md-5 col-md-push-1 content-area" style="opacity: 0;"><div class="dont-turn-to-well" >
+
+							<h1 class="siyuan-font-extra-light margin-bottom-20" style="text-align: left; font-size: 40px;">手机上就能看见香味</h1>
+
+							<p class="siyuan-font-extra-light margin-bottom-40" style="text-align: left; font-size: 16px; font-weight: lighter;">美的方智能烤箱创新地在30度黄金视角嵌入高清耐温摄像头，用手机就能轻松把控烹饪进程，绝不错过美味定格的关键时刻。</p>
+
+							<div class="row features ">
+
+								
+							</div>
+
+						</div></div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			
+			<div id="camera4-intro" class="tech-feature    interactive-slider-v2" style="width: 92.5%; position: absolute; top: 0; right: 0; padding: 16% 0 30%; background:url('media/home/component3.png') 50% 50% / cover no-repeat;">
+
+
+
+				<div class="container">
+
+					<div class="row">
+
+						<div class="col-md-5 col-md-push-1 content-area" style="opacity: 0;"><div class="dont-turn-to-well" >
+
+							<h1 class="siyuan-font-extra-light margin-bottom-20" style="text-align: left; font-size: 40px;">手机上就能看见香味</h1>
+
+							<p class="siyuan-font-extra-light margin-bottom-40" style="text-align: left; font-size: 16px; font-weight: lighter;">美的方智能烤箱创新地在30度黄金视角嵌入高清耐温摄像头，用手机就能轻松把控烹饪进程，绝不错过美味定格的关键时刻。</p>
+
+							<div class="row features ">
+
+								
+							</div>
+
+						</div></div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			
+			<div id="camera5-intro" class="tech-feature  darken-on-small  interactive-slider-v2" style="width: 90%; position: absolute; top: 0; right: 0; padding: 16% 0 30%; background:url('media/home/component4.png') 50% 50% / cover no-repeat;">
+
+
+
+				<div class="container">
+
+					<div class="row">
+
+						<div class="col-md-5 col-md-push-1 content-area" style="opacity: 0;"><div class="dont-turn-to-well" >
+
+							<h1 class="siyuan-font-extra-light margin-bottom-20" style="text-align: left; font-size: 40px;">手机上就能看见香味</h1>
+
+							<p class="siyuan-font-extra-light margin-bottom-40" style="text-align: left; font-size: 16px; font-weight: lighter;">美的方智能烤箱创新地在30度黄金视角嵌入高清耐温摄像头，用手机就能轻松把控烹饪进程，绝不错过美味定格的关键时刻。</p>
+
+							<div class="row features ">
+
+								
+							</div>
+
+						</div></div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			
+
+
+
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-5 col-md-push-1" style="z-index: 9999;"><div class="dont-turn-to-well" >
+
+						<h1 class="siyuan-font-extra-light margin-bottom-20" style="text-align: left; font-size: 40px;">手机上就能看见香味</h1>
+
+						<p class="siyuan-font-extra-light margin-bottom-40" style="text-align: left; font-size: 16px; font-weight: lighter;">美的方智能烤箱创新地在30度黄金视角嵌入高清耐温摄像头，用手机就能轻松把控烹饪进程，绝不错过美味定格的关键时刻。</p>
+
+						<div class="row features ">
+
+							
+						</div>
+
+					</div></div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+		<div id="share-intro" class="visible-md-block visible-lg-block" style="display: block; padding: 0 0 52%; position: relative;">
+
+			<div id="share-video-background">
+
+				<video loop id="share-video-src" poster="none.html" style="width: 100%;">
+
+					
+						<source src='media/home/ovenbg.webm' type='video/webm' />
+
+					
+				</video>
+
+			</div>
+
+
+
+			<div id="share-video-text-block" class="container">
+
+				<div class="row">
+
+					<div class="col-md-5 col-lg-3 col-md-offset-2 col-lg-offset-3">
+
+						<h1 class="siyuan-font-extra-light margin-bottom-20 share-text-margin-top" style="margin-top: 50px; color: white; text-align: left; font-size: 40px;">恭喜！你的又一部美味大片！</h1>
+
+						<p class="siyuan-font-extra-light margin-bottom-40" style="line-height: 30px; color: white; text-align: left; font-size: 16px; font-weight: lighter;">无论是烘焙中曲奇膨胀，还是烧烤时鸡翅变色，美味蜕变的瞬间总能清晰记录，烹饪过后记得把小视频发朋友圈，让大家都来羡慕一下。</p>
+
+						<div class="row features ">
+
+							
+						</div>
+
+					</div>
+
+					<div class="col-md-3 col-md-offset-1">
+
+						<div style="position: relative;">
+
+							<img style="margin: 0; width: 100%;" class="img-responsive" src="media/home/phone.png">
+
+								<div style="position: absolute; top: 31.6%; left: 6.5%; width: 87.2%; padding: 29% 0; z-index: 2;">
+
+									<video id="share-front-video-src" loop poster="none.html" style="position: absolute; width: 100%; left: 0; top: 0;">
+
+										
+											<source src='media/home/ovenbg.webm' type='video/webm' />
+
+										
+									</video>
+
+								</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+		<div id="enamel-intro" class="tech-feature  nooverlay  interactive-slider-v2" style="padding: 15.8% 0 15.8%; background:url('media/home/enamel-banner.jpg') 50% 50% / cover no-repeat;">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-6 col-md-push-3"><div class="dont-turn-to-well" >
+
+						<h1 class="siyuan-font-extra-light margin-bottom-20" style="font-size: 40px;">瓷之以恒 美味绝伦</h1>
+
+						<h2 class="siyuan-font-extra-light margin-bottom-10" style="font-size: 25px; color: white;">西门子釉蓝雪花搪瓷内胆</h1>
+
+						<p class="siyuan-font-extra-light margin-bottom-40" style="font-size: 16px; font-weight: lighter;">为了还原石窑烧烤的纯正风味，避免致癌金属涂层高温挥发污染食物。我们使用了Siemens技术的釉蓝雪花搪瓷内胆，原装进口整套静电干粉搪瓷工艺，以900度高温烧结每一粒纳米级釉粉。浴火重生后的搪瓷内胆光洁坚固，其硬度可媲美蓝宝石，而韧性却是蓝宝石的两倍。</p>
+
+						<div class="row features ">
+
+							
+							<div class="col-sm-4">
+
+								<h1 class="siyuan-font-extra-light">8.5</h1>
+
+								<p style="line-height: 1.5em;" class="siyuan-font-extra-light">莫氏硬度</p>
+
+							</div>
+
+							
+							<div class="col-sm-4">
+
+								<h1 class="siyuan-font-extra-light">40<sup>%</sup></h1>
+
+								<p style="line-height: 1.5em;" class="siyuan-font-extra-light">效能提升<br> （与金属内胆相比）</p>
+
+							</div>
+
+							
+							<div class="col-sm-4">
+
+								<h1 class="siyuan-font-extra-light">3.9<sup>%</sup></h1>
+
+								<p style="line-height: 1.5em;" class="siyuan-font-extra-light">抗菌粉体</p>
+
+							</div>
+
+							
+						</div>
+
+					</div></div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+		<div id="volume-intro" class="tech-feature  darken-on-small  interactive-slider-v2" style="padding: 9% 0 35%; background:url('media/home/volume-banner.jpg') 50% 50% / cover no-repeat;">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-5 col-md-push-35"><div class="dont-turn-to-well" >
+
+						<h1 class="siyuan-font-extra-light margin-bottom-20" style="font-size: 40px;">42L，大得刚刚好</h1>
+
+						<p class="siyuan-font-extra-light margin-bottom-40" style="font-size: 16px; font-weight: lighter;">美的方配备42L专业内胆，三层立方扩容，一次可烤14寸全家福pizza。快叫上亲朋好友，美味根本停不下来。</p>
+
+						<div class="row features ">
+
+							
+						</div>
+
+					</div></div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+		<div id="heater-intro" class="tech-feature  nooverlay  interactive-slider-v2" style="padding: 5% 0 5%; background:url() #000 50% 50% / cover no-repeat;">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-8 col-md-push-2"><div class="dont-turn-to-well" >
+
+						<h1 class="siyuan-font-extra-light margin-bottom-20" style="font-size: 40px;">&ldquo;Twin-M&rdquo;红外发热管</h1>
+
+						<p class="siyuan-font-extra-light margin-bottom-40" style="font-size: 16px; font-weight: lighter;">发热管的品质决定了烤箱的性能，采用发蓝工艺处理后的不锈钢发热管能释放足够多的红外线，穿透食物表面，深度加热。定制的&ldquo;Twin-M&rdquo;型发热管方案，不仅提升了烤箱的加热速率，更有效地提高了加热均匀性。洗个脸，梳个头，从一片上色均匀的黄油吐司开始美的一天。</p>
+
+						<div class="row features ">
+
+							<div class="col-md-8 col-md-push-2"><div class="row">
+
+								
+								<div class="col-sm-4">
+
+									<h1 class="siyuan-font-extra-light">2100<sup>w</sup></h1>
+
+									<p class="siyuan-font-extra-light">Turbo Boost超大功率</p>
+
+								</div>
+
+								
+								<div class="col-sm-4">
+
+									<h1 class="siyuan-font-extra-light">30<sup>%</sup></h1>
+
+									<p class="siyuan-font-extra-light">加热效率提升</p>
+
+								</div>
+
+								
+								<div class="col-sm-4">
+
+									<h1 class="siyuan-font-extra-light">50<sup>%</sup></h1>
+
+									<p class="siyuan-font-extra-light">均匀性提升</p>
+
+								</div>
+
+								
+							</div></div>
+
+						</div>
+
+					</div></div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<div style="position: relative;">
+
+			<img class="innerview3" src="media/home/inner-light2.jpg" style="display: none; width: 100%; position: absolute; left: 0; top: 0; z-index: 1;">
+
+			<img class="innerview2" src="media/home/inner-light1.jpg" style="display: none; width: 100%; position: absolute; left: 0; top: 0;">
+
+			<img class="innerview" src="media/home/inner-nolight.jpg" style="width: 100%;">
+
+		</div>
+
+
+
+		<div id="panel-intro" class="container-fluid">
+
+			<div class="row equal-height-columns no-gutter">
+
+				<div class="col-sm-6 equal-height-column dp-table col-sm-push-6">
+
+					<div class="content-boxes-v3 dp-table-cell parallaxBg" style="background-color: black;">
+
+						<div class="row">
+
+							<div class="col-md-7 col-md-push-1">
+
+								<h1 class="margin-bottom-20 siyuan-font-extra-light">六大人性化功能<br>三步锁定你的心意</h1>
+
+								<p class="siyuan-font-extra-light">我们对六大常用功能进行了人性化设定，开机后只需在&ldquo;功能，温度，时间&rdquo;中切换调节，一选一旋间就能完成各种烹饪设定，不用说明书，你也能轻松掌握这枚烹饪利器。</p>
+
+								<div>
+
+									
+										<span data-order="0" class="circular siyuan-font-extra-light"><span>上下管</span></span>
+
+									
+										<span data-order="1" class="circular siyuan-font-extra-light"><span>上管</span></span>
+
+									
+										<span data-order="2" class="circular siyuan-font-extra-light"><span>下管</span></span>
+
+									
+										<span data-order="3" class="circular siyuan-font-extra-light"><span>热风</span></span>
+
+									
+										<span data-order="4" class="circular siyuan-font-extra-light"><span>旋转</span></span>
+
+									
+										<span data-order="5" class="circular siyuan-font-extra-light"><span>发酵</span></span>
+
+									
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="col-sm-6 equal-height-column dp-table col-sm-pull-6">
+
+					<div id="panel-divs" class="dp-table-cell" style="background-color: black;">
+
+						
+							
+								<img class="panel-image img-responsive" src="media/home/panel1.jpg" alt="">
+
+							
+						
+							
+								<img class="panel-image design-banner-img img-responsive" src="media/home/panel2.jpg" alt="">
+
+							
+						
+							
+								<img class="panel-image design-banner-img img-responsive" src="media/home/panel3.jpg" alt="">
+
+							
+						
+							
+								<img class="panel-image design-banner-img img-responsive" src="media/home/panel4.jpg" alt="">
+
+							
+						
+							
+								<img class="panel-image design-banner-img img-responsive" src="media/home/panel5.jpg" alt="">
+
+							
+						
+							
+								<img class="panel-image design-banner-img img-responsive" src="media/home/panel6.jpg" alt="">
+
+							
+						
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+		<div id="onekey-intro" class="tech-feature  nooverlay  interactive-slider-v2" style="padding: 7% 0 7%; background:url('media/home/onekey-dark-banner.jpg') 50% 50% / cover no-repeat;">
+
+
+
+			<div id="onekey-intro-2" class="tech-feature  nooverlay  interactive-slider-v2" style="width: 100%; position: absolute; left: 0; top: 0; display: none; padding: 7% 0 7%; background:url('media/home/onekey-light-banner.jpg') 50% 50% / cover no-repeat;">
+
+				<div class="container">
+
+					<div class="row">
+
+						<div class="col-md-5 col-md-push-1 onekey-text" style="margin-top: 150px;"><div class="dont-turn-to-well" >
+
+							<h1 class="siyuan-font-extra-light margin-bottom-20" style="text-align: left; font-size: 40px;">看完菜谱就一键启动</h1>
+
+							<p class="siyuan-font-extra-light margin-bottom-40" style="text-align: left; font-size: 16px; font-weight: lighter;">慵懒的下午，斑驳的阳光，还有懂你的&ldquo;烘焙有方&rdquo;。备好材料，跟随步骤，轻点&ldquo;一键启动&rdquo;，聚会上的每次烹饪都是大师级的作品，美味背后的秘密只有你和美的方知道。</p>
+
+							<div class="row features ">
+
+								
+							</div>
+
+							<p style="text-align: left;">
+
+								<a data-toggle="modal" data-target=".bs-example-modal-ios" style="cursor: pointer;" ><img style="padding: 20px 0 50px;" src="media/home/onekey-ios-button.png"></a>
+
+								<a href="http://sj.qq.com/myapp/detail.htm?apkName=com.midea.oven" target="_blank"><img style="padding: 20px 10px 50px;" src="media/home/onekey-android-button.png"></a>
+
+							</p>
+
+						</div></div>
+
+						<div class="col-md-5 col-md-push-2">
+
+							<div style="position: relative; margin: 0 auto; width: 80%;">
+
+								<img class="img-responsive onekeyphone" src="media/home/onekey-phone2.png">
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-5 col-md-push-1 onekey-text" style="margin-top: 150px;"><div class="dont-turn-to-well" >
+
+						<h1 class="siyuan-font-extra-light margin-bottom-20" style="text-align: left; font-size: 40px;">看完菜谱就一键启动</h1>
+
+						<p class="siyuan-font-extra-light margin-bottom-40" style="text-align: left; font-size: 16px; font-weight: lighter;">慵懒的下午，斑驳的阳光，还有懂你的&ldquo;烘焙有方&rdquo;。备好材料，跟随步骤，轻点&ldquo;一键启动&rdquo;，聚会上的每次烹饪都是大师级的作品，美味背后的秘密只有你和美的方知道。</p>
+
+						<div class="row features ">
+
+							
+						</div>
+
+						<p style="text-align: left;">
+
+							<a data-toggle="modal" data-target=".bs-example-modal-ios" style="cursor: pointer;" ><img style="padding: 20px 0 50px;" src="media/home/onekey-ios-button.png"></a>
+
+							<a href="http://sj.qq.com/myapp/detail.htm?apkName=com.midea.oven" target="_blank"><img style="padding: 20px 10px 50px;" src="media/home/onekey-android-button.png"></a>
+
+						</p>
+
+					</div></div>
+
+					<div class="col-md-5 col-md-push-2">
+
+						<div style="position: relative; margin: 0 auto; width: 80%;">
+
+							<img class="img-responsive onekeyphone2" style="display: none; position: absolute; left: 0; top: 0; z-index: 1;" src="media/home/onekey-phone2.png">
+
+							<img class="img-responsive onekeyphone" src="media/home/onekey-phone1.png">
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+		<div id="range-intro" class="tech-feature  nooverlay  interactive-slider-v2" style="padding: 18% 0 18%; background:url('media/home/range-banner.jpg') 50% 50% / cover no-repeat;">
+
+			<div>
+
+				<div class="row" style="margin: 0;">
+
+					<div class="col-md-12" style="padding: 100px 0; background: rgba(0, 0, 0, 0.4);"><div class="dont-turn-to-well" >
+
+						<div class="row" style="margin: 0;"><div class="col-md-3 col-md-push-45">
+
+							<h1 class="siyuan-font-extra-light margin-bottom-20" style="font-size: 40px;">190&deg;+ 超广温域掌控</h1>
+
+							<p class="siyuan-font-extra-light margin-bottom-40" style="font-size: 16px; font-weight: lighter;">从38度的低温发酵到230度的猛火烘烤，美的方都能轻松应对。保温，解冻，酿酒，复脆，熏肉，焗饭&hellip; 更多姿势等你解锁。</p>
+
+							<div class="row features " style="margin: 0;">
+
+								
+							</div>
+
+						</div></div>
+
+					</div></div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+				<footer style="padding: 30px 0; background-color: #25211e;">
+			<div class="container">
+				<div class="row" style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #7d7d7d;">
+					<div class="col-lg-3 col-md-3 col-xs-6" style="padding: 15px 10px;">
+						<img id="logo-header" src="themes/media-theme/assets/images/logo.png" alt="Logo">
+					</div>
+					<div class="col-lg-7 col-md-6 footer-icons hidden-xs hidden-sm">
+						<a href="http://sj.qq.com/myapp/detail.htm?apkName=com.midea.oven" target="_blank"><img src="media/global/onekey-android-button.png" /></a> 
+						<a data-toggle="modal" data-target=".bs-example-modal-ios" style="cursor: pointer;" ><img src="media/global/onekey-ios-button.png" /></a>
+						<a data-toggle="modal" data-target=".bs-example-modal-wechat" style="cursor: pointer;" ><img style="padding-right: 40px;" src="media/global/qbar.png" /></a>
+					</div>
+
+					<div class="modal fade bs-example-modal-ios" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-sm" style="margin-top: 200px;">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+									<h4 id="myLargeModalLabel3" class="modal-title siyuan-font-normal">扫码下载</h4>
+								</div>
+								<div class="modal-body">
+									<p><img src="media/global/ios-qbar.png" style="width: 100%;" /></p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="modal fade bs-example-modal-wechat" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-sm" style="margin-top: 200px;">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+									<h4 id="myLargeModalLabel3" class="modal-title siyuan-font-normal">关注公众号</h4>
+								</div>
+								<div class="modal-body">
+									<p><img src="media/global/qbar_real.png" style="width: 100%;" /></p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-2 col-md-3 col-xs-6" style="text-align: right;">
+						<h3 class="siyuan-font-normal">18666586986</h3>
+						<p class="siyuan-font-normal">美的厨房电器事业部</p>
+					</div>
+				</div>
+				<div class="row"><div class="col-md-12">
+					<p class="siyuan-font-normal">Copyright &copy; 1968-2016 美的集团股份有限公司 粤ICP备09215446号</p>
+				</div></div>
+			</div>
+		</footer>
+		
+
+	</div><!--/wrapper-->
+
+
+
+		<!-- JS Global Compulsory -->
+	<!-- <script type="text/javascript" src="http://mideafun.com/themes/media-theme/assets/plugins/jquery/jquery.min.js"></script> --> 
+	<script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="themes/media-theme/assets/plugins/jquery/jquery-migrate.min.js"></script>
+	<script type="text/javascript" src="themes/media-theme/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<!-- JS Implementing Plugins -->
+	<script type="text/javascript" src="themes/media-theme/assets/plugins/smoothScroll.js"></script>
+	<script type="text/javascript" src="themes/media-theme/assets/plugins/jquery.parallax.js"></script>
+	<!-- JS Page Level -->
+	<script type="text/javascript" src="themes/media-theme/assets/js/app.js"></script>
+
+	<script>
+	// font
+	$youziku.load(".siyuan-font-extra-light", "503664c7fb584fffa43950614d581a4f", "SiYuan-ExtraLight");
+	$youziku.load(".siyuan-font-light", "860a3e2eb91f45e18d85da4b2bf9e732", "Source-Han-Light");
+	$youziku.load(".siyuan-font-normal", "6f05f8a7b81646d3b63307e5bb173285", "Source-Han-Normal");
+	$youziku.draw();
+	</script>
+
+	<!-- JS Customization -->
+
+	<script type="text/javascript" src="themes/media-theme/assets/plugins/wow-animations/js/wow.min.js"></script>
+
+	<script type="text/javascript" src="themes/media-theme/assets/js/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="themes/media-theme/assets/plugins/elastic-slider/js/jquery.eislideshow.js"></script>
+
+	<script type="text/javascript" src="themes/media-theme/assets/plugins/elastic-slider/js/jquery.easing.1.3.js"></script>
+
+	<script type="text/javascript" src="themes/media-theme/assets/js/custom.js"></script>
+
+
+
+	<script type="text/javascript">
+
+		var componentsUnshown = true, innerviewUnshown = true, onekeyUnshown = true;
+
+		jQuery(document).ready(function() {
+
+			App.init();
+
+			new WOW().init();
+
+			// panel switching
+
+			panel_switch();
+
+			// well switching
+
+			switch_wells();
+
+			$(window).resize(switch_wells);
+
+			// dividor
+
+			$('.left-product-section').resizable({handles: 'e', containment: '#containment-for-left', stop: function(event, ui){}});
+
+			// bullet clicking
+
+			setInterval("bullet_click()", 3000);
+
+			//
+
+			$('#share-video-src').trigger('play');
+
+			$('#share-front-video-src').trigger('play');
+
+			// sroll effects
+
+			$(window).scroll(function() {
+
+				var windowTop = $(document).scrollTop();
+
+				// camera components fade in
+
+				var cameraTop = $('#camera-intro').offset().top - $('#camera-intro').height();
+
+				if ((windowTop >= cameraTop) && componentsUnshown) {
+
+					
+						$('#camera2-intro').delay(50).show().animate({opacity: 1, width: "100%"}, {duration: 1500});
+
+					
+						$('#camera3-intro').delay(50).show().animate({opacity: 1, width: "100%"}, {duration: 1500});
+
+					
+						$('#camera4-intro').delay(50).show().animate({opacity: 1, width: "100%"}, {duration: 1500});
+
+					
+						$('#camera5-intro').delay(50).show().animate({opacity: 1, width: "100%"}, {duration: 1500});
+
+					
+					componentsUnshown = false;
+
+				}
+
+				// inner fades in
+
+				var innerviewTop = $('.innerview').offset().top - $('.innerview').height();
+
+				if ((windowTop >= innerviewTop) && innerviewUnshown) {
+
+					$('.innerview2').delay(500).fadeIn(1000);
+
+					$('.innerview3').delay(2000).fadeIn(1000);
+
+					innerviewUnshown = false;
+
+				}
+
+				// onekey fades in
+
+				var onekeyTop = $('#onekey-intro').offset().top - $('#onekey-intro').height();
+
+				if ((windowTop >= onekeyTop) && onekeyUnshown) {
+
+					$('.onekeyphone2').delay(2000).fadeIn(1500);
+
+					$('#onekey-intro-2').delay(4000).fadeIn(1500);
+
+					onekeyUnshown = false;
+
+				}
+
+			});
+
+		});
+
+		// video triggering
+
+		$(".trigger-video").click(function() {
+
+			trigger_video();
+
+			$("#video-background").click(trigger_video);
+
+		});
+
+	</script>
+
+
+
+	<!--[if lt IE 9]>
+
+		<script src="http://mideafun.com/themes/media-theme/assets/plugins/respond.js"></script>
+
+		<script src="http://mideafun.com/themes/media-theme/assets/plugins/html5shiv.js"></script>
+
+		<script src="http://mideafun.com/themes/media-theme/assets/plugins/placeholder-IE-fixes.js"></script>
+
+	<![endif]-->
+
+</body>
+
+</html>

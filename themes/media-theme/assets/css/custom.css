@@ -1,0 +1,602 @@
+
+/******  1. General  ******/
+
+body, h1, h2, h3, h4, h5, h6, p {
+	font-family: 黑体, sans-serif;
+	line-height: 1.5em;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: lighter;
+}
+
+h2 {
+	font-size: 36px;
+	font-weight: lighter;
+}
+
+h1.large {
+	font-size: 50px;
+}
+
+p {
+	font-size: 16px;
+}
+
+@media (max-width: 767px) {
+    h1, h1.large {
+        font-size: 30px;
+    }
+    h2 {
+    	font-size: 24px;	
+    }
+}
+
+.fullwidth {
+	width: 100%;
+}
+
+.relative {
+	position: relative;
+}
+
+.nopadding {
+	padding: 0;
+}
+
+.nomargin {
+	margin: 0;
+}
+
+.footer-icons {
+	border-right: 1px solid #7d7d7d;
+	text-align: right;
+	padding: 10px 0;
+}
+
+.footer-icons img {
+	padding: 0 10px;
+}
+
+footer h3 {
+	color: white;
+	font-size: 26px;
+	margin-bottom: 0;
+}
+
+footer p {
+	font-size: 14px;
+}
+
+@media (min-width: 992px) {
+	.col-md-push-45 {
+		left: 37.499999%;
+	}
+	.col-md-push-35 {
+		left: 29.166666%;
+	}
+	.col-md-push-25 {
+		left: 20.833333%;
+	}
+	.col-md-offset-05 {
+		margin-left: 4.166666%;
+	}
+	.col-md-offset-15 {
+		margin-left: 12.5%;
+	}
+}
+
+/******  2. Navigation  ******/
+
+/* 2.1 set nav background color and shape */
+.header-v5 .navbar-default {
+	background-color: #292623;
+}
+@media (max-width: 991px) {
+    .header-v5 .navbar {
+        margin-top: 0px; /* replace margin with colorful border*/
+        border-top: 10px solid #292623;
+    }
+}
+.navbar {
+	border-radius: 0px;
+}
+/* 2.2 adjust shrinking effect to omit topbar */
+/*
+.header-fixed .header-v5.header-fixed-shrink {
+	margin-top: 0;
+	box-shadow: none;
+	background: transparent;
+}
+*/
+/* 2.3 adjust color */
+.header .navbar-toggle, .header .navbar-toggle:hover, .header .navbar-toggle:focus {
+	background: none;
+}
+.header-v5 .navbar-default .navbar-toggle .icon-bar {
+	background: white;
+}
+.header-v5 .navbar-default .navbar-nav > li > a {
+	color: white;
+	font-weight: normal;
+}
+.header-v5 .navbar-default .navbar-nav > .active > a,
+.header-v5 .navbar-default .navbar-nav > li > a:hover {
+	border-top: 2px solid #b3b3b3;
+	color: #b3b3b3;
+}
+/* 2.4 adjust position */
+.header-v5 .navbar-default .navbar-nav > li > a {
+	padding: 25px 30px 22px !important;
+}
+@media (max-width: 991px) {
+    .header-v5 .navbar-header {
+      margin-right: 0;
+    }
+}
+
+/* ========================= FUN PAGE ========================== */
+.interactive-slider-v2:after {
+	background: none;
+}
+
+.screen-pic {
+	width: 50%; 
+	display: none; 
+	position: absolute; 
+	top: 21%; 
+	left: 25%;
+}
+
+.content-boxes-v3.dp-table-cell {
+	width: 10%;
+	padding: 20px 30px;
+}
+
+#recipe-block {
+	background: #2d2929;
+}
+
+#recipe-block h1, #recipe-block p {
+	color: white;
+}
+
+#recipe-block h1 ~ p {
+	width: 400px;
+	margin: 20px auto 0;
+}
+
+@media (max-width: 767px) {
+	#recipe-block h1 ~ p {
+		width: 100%;
+	}
+}
+
+.recipe-item {
+	box-shadow: 15px 15px 30px 1px black;
+	margin: 0 3%;
+	border-radius: 8px;
+}
+
+#recipe-block .recipe-cover {
+	width: 100%; border-bottom: 4px solid #c1b497;
+	padding: 38% 0;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px; 
+}
+
+#recipe-block .recipe-large .recipe-item {
+	margin: 0 1.5%;
+}
+
+#recipe-block .recipe-large .recipe-cover {
+	padding: 20% 0;
+}
+
+#recipe-block .recipe-text {
+	width: 100%;
+	padding: 10% 0;
+	margin-bottom: 50px;
+	background: url("../images/recipe-bg-lg.png") 50% / cover no-repeat;
+	padding: 20px 30px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+#recipe-block .recipe-text h2, #recipe-block .recipe-text p {
+	color: white;
+}
+
+#recipe-block .recipe-text p {
+	font-size: 16px;
+}
+
+@media (max-width: 991px) {
+	#recipe-block .recipe-item {
+		margin: 0 15% !important;
+	}
+	#recipe-block .recipe-cover {
+		padding: 20% 0 !important;
+	}
+} 
+
+/* ========================= TECH PAGE ========================== */
+
+.tech-feature .features h1.large-h1 {
+	font-size: 40px;
+}
+
+.tech-feature h1 {
+	font-size: 32px;
+	line-height: 1.5em;
+	font-weight: lighter;
+	text-transform: none;
+}
+
+.tech-feature h2 {
+	font-size: 22px;
+	color: black;
+	line-height: 2em;
+}
+
+.tech-feature p {
+	font-size: 14px;
+	line-height: 2em;
+	font-weight: normal;
+	text-transform: none;
+}
+.tech-feature .features h1 {
+	font-size: 32px;
+	line-height: 1em;
+	margin-top: 20px;
+}
+
+.tech-feature .features p {
+	font-size: 12px;
+	line-height: 1em;
+}
+
+.feature-dark-text p, .feature-dark-text h1 {
+	color: black;
+}
+
+#network-intro p, #network-intro h1 {
+	text-align: left;
+}
+
+#network-intro .features h1 {
+	font-size: 24px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#network-intro .features p {
+	text-align: center;
+}
+
+@media (max-width: 991px) {
+	.tech-feature .features h1 {
+		font-size: 25px;
+		display: inline;
+		line-height: 2em;
+	}
+	.tech-feature p {
+		text-align: center !important;
+	}
+	.tech-feature h1 {
+		text-align: center !important;
+	}
+	.tech-feature .features p {
+		display: inline;
+	}
+	.tech-feature .features p:before {
+		content: ' - ';
+	}
+	.tech-feature.darken-on-small:after {
+	    content: ' ';
+	    position: absolute;
+	    left: 0;
+	    right: 0;
+	    top: 0;
+	    bottom: 0;
+	    background-color: rgba(0,0,0,.5);
+	}
+	.tech-feature.whiten-on-small:after {
+	    content: ' ';
+	    position: absolute;
+	    left: 0;
+	    right: 0;
+	    top: 0;
+	    bottom: 0;
+	    background-color: rgba(255,255,255,.4);
+	}
+}
+
+.turn-to-well {
+	background: rgba(0, 0, 0, 0) !important;
+}
+
+@media screen and (max-width: 767px) {
+	.small-play-icon {
+		display: inline;
+	}
+	.large-play-icon {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.small-play-icon {
+		display: none;
+	}
+	.large-play-icon {
+		display: inline;
+	}
+}
+
+/* ========================= DESIGN PAGE ========================== */
+
+.design-banner-img {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 1000;
+	display: none;
+}
+
+.circular {
+	display: inline-block;
+	width: 46px;
+	height: 46px;
+	border: solid 1px white;
+	margin: 0 3px 5px;
+	border-radius: 23px;
+	color: white;
+	text-align: center;
+}
+
+.circular.active {
+	border: solid 1px black;
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
+
+.circular span {
+	position: relative;
+	top: 14px;
+	font-size: 11px;
+}
+
+#panel-intro h1 {
+	line-height: 2em; 
+	font-size: 35px; 
+	font-weight: lighter; 
+	color: white;
+}
+
+#panel-intro p {
+	margin-bottom: 30px; 
+	line-height: 2em; 
+	font-weight: lighter; 
+	color: white;
+}
+
+#lift-intro {
+	padding: 5% 0 5%; 
+	background-color: #f9f9f9;
+}
+
+#feature-sections h1 {
+	font-size: 35px; font-weight: lighter;
+}
+
+#lift-rotate {
+	position: relative;
+}
+
+#lift-rotate .text {
+	display: none;
+	position: absolute;
+	top: 0;
+}
+
+#panel-intro > .row {
+	background-color: black;
+}
+
+#monitor-intro .monitor-main > h1 {
+	text-align: left;
+	font-size: 40px;
+}
+
+#monitor-intro .monitor-main > p {
+	text-align: left;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+/* ========================= DESIGN PAGE ========================== */
+
+@media (max-width: 767px) {
+	#share-intro {
+		padding: 30px 0 0 0 !important;
+	}
+    #onekey-intro, #heater-intro, #onekey-intro-2, #domain-intro, #volume-intro, #enamel-intro {
+    	padding: 40px 0 !important;
+    }
+    .onekey-text {
+    	margin-top: 0px !important;
+    }
+    #camera2-intro { width: 100% !important; }
+    #camera3-intro { width: 100% !important; }
+    #camera4-intro { width: 100% !important; }
+    #camera5-intro { width: 100% !important; }
+    #camera6-intro { width: 100% !important; }
+}
+
+.domain-dot {
+	color: #808080;
+}
+
+.domain-dot.active {
+	color: #fff;
+}
+
+@media (min-width: 1367px) {
+	.share-text-margin-top {
+		margin-top: 150px !important;
+	}
+}
+
+/* =================== SPECS PAGE ================= */
+
+@media (min-width: 768px) {
+	.bottom-custom-width .col-sm-6 {
+	    width: 52.34375%;
+	}
+	.bottom-custom-width .col-sm-4 {
+	    width: 29.6875%;
+	}
+	.bottom-custom-width .col-sm-2 {
+	    width: 17.96875%;
+	}
+}
+
+.specs-data td {
+	border: 1px solid white;
+}
+.specs-data.table-striped>tbody>tr:nth-of-type(odd) {
+	background-color: #f5f5f5;
+}
+.specs-data.table-striped>tbody>tr:nth-of-type(even) {
+	background-color: #ececec;
+}
+.specs-data.table-striped>tbody>tr>td:nth-of-type(odd) {
+	text-align: right;
+	padding-right: 50px;
+	width: 45%;
+}
+.specs-data.table-striped>tbody>tr>td:nth-of-type(even) {
+	padding-left: 50px;
+}
+.specs-data.table-striped>tbody>tr>td {
+	font-family: inherit;
+}
+#team-intro .headline-center h2:after {
+	width: 0;
+}
+#team-intro {
+	background-color: #535353
+}
+#team-intro h2 {
+	color: #e4e4e4;
+	padding-bottom: 0;
+	font-size: 40px;
+}
+#team-intro .headline-center {
+	margin: 80px 0;
+}
+#team-intro span {
+	color: #dddddd;
+	font-size: 26px;
+	margin-bottom: 20px;
+	font-family: inherit;
+}
+#team-intro small {
+	color: #dddddd;
+	font-size: 16px;
+	line-height: 2em;
+	font-family: inherit;
+}
+#team-intro .img-responsive {
+	width: 70%;
+	margin: 0 auto 40px;
+}
+#handle-intro {
+	padding: 4% 0;
+	background-color: #ececec;
+}
+#handle-intro h2 {
+	color: black;
+	font-size: 40px;
+}
+
+
+/* =================== DOWNLOAD PAGE ================= */
+
+.download-wrapper {
+	background: #25211e;
+}
+.download-wrapper .download-icons p.small {
+	font-size: 20px;
+}
+.download-wrapper .download-icons .img-responsive {
+	margin: 0 auto;
+}
+.download-wrapper .download-icons p {
+	text-align: center;
+	padding: 15px;
+	font-size: 40px;
+	color: white;
+}
+.download-wrapper .logo-div {
+	text-align: center; 
+	background: #25211e; 
+	padding: 30px;
+}
+.download-wrapper .banners {
+	max-width: 1080px;
+	margin: 0 auto;
+}
+.download-wrapper .banners img {
+	width: 100%;
+}
+
+/* =================== HOME PAGE ================= */
+
+#video-background {
+	position: absolute;
+	left: 0;
+}
+#video-text-block {
+	position: absolute;
+	top:  30%;
+	width: 100%;
+	text-align: center;
+}
+#video-src {
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+#share-video-background {
+	position: absolute;
+	left: 0;
+}
+#share-video-text-block {
+	position: absolute;
+	top:  20%;
+	width: 100%;
+	text-align: center;
+}
+
+/* This used to work for parent element of button divs */
+/* But it is not enough now, below dont hide play button parent div */
+*::-webkit-media-controls-panel {
+  display: none!important;
+  -webkit-appearance: none;
+}
+/* Old shadow dom for play button */
+*::--webkit-media-controls-play-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
+/* New shadow dom for play button */
+/* This one works */
+*::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
